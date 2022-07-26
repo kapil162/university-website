@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <mata name="viewport" content="width=device-width, intial-scale=1.0"></mata>
+    <title>Best University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Largest University</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas vitae quia reprehenderit facilis <br>necessitatibus nulla accusamus non sequi quisquam, molestiae, quo.</p>
+            <a href="" class="hero-btn">Visit Us To Known More</a>
+           
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>Course we are offer</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid</p>
+
+        <div class="row">
+            <div class="row-col">
+                <h3>intermidiate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sed, dicta quia possimus veniam mollitia?</p>
+            </div>
+            <div class="row-col">
+                <h3>degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sed, dicta quia possimus veniam mollitia?</p>
+            </div>
+            <div class="row-col">
+                <h3>postgraduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sed, dicta quia possimus veniam mollitia?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h3 style="font-size: 32px;">our facilities</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, officiis.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="library">
+                <h3>bigger library</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="basketball playground">
+                <h3>larger playground</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="cafeteria">
+                <h3>tasty and delightful snacks and food</h3>
+            </div>
+            
+        </div>
+
+    </section >
+    <section class="ctc">
+        <h1>enroll in our college online courses from anywhare</h1>
+        <a href="" class="hero-btn">Contact Us</a>
+    
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti expedita quaerat<br> ullam error necessitatibus alias!</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+  
+</body>
+
